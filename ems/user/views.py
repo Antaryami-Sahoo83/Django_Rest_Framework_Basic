@@ -10,3 +10,6 @@ from user.serializer import UserSerializer
 class UserViewSet(viewsets.ModelViewSet):
 	queryset = User.objects.all()
 	serializer_class = UserSerializer
+
+
+# http://127.0.0.1:8000/auth/user/user/ (For testing in the postman)
